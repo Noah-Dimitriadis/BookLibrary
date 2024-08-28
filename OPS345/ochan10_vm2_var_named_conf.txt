@@ -1,0 +1,13 @@
+options {
+ directory "/var/named/";
+ allow-query {any;};
+};
+
+zone "oliverchan.ops" IN {
+	type slave;
+	file "slaves/mydb-for-oliverchan-ops";
+	masters {192.168.0.10;};
+};
+
+
+

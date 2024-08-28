@@ -1,0 +1,27 @@
+OPS245 Lab 3 Check Script
+
+CHECKING YOUR LAB 3 WORK:
+
+Checking creation of "/tmp/extract1/archive1.tar" archive file (centos3): 
+[0;32mOK[m
+Checking creation of "/tmp/extract2/archive2.tar.gz" archive file (centos3): 
+[0;32mOK[m
+Checking archive1.tar restored to "/tmp/extract1" directory (centos3): 
+[0;32mOK[m
+Checking archive2.tar.gz restored to "/tmp/extract2" directory (centos3): 
+[0;32mOK[m
+Checking for removal of "elinks" application: 
+[0;32mOK[m
+Checking for install of "xchat" application: /bin/xchat
+[0;32mOK[m
+Checking for "epel" repository added to repolist (c7host). Note: This may take a few moments (please be patient): [0;32mOK[m
+Checking for presence of "lbreakout" application (c7host): [0;32mOK[m
+Checking for presence of "/home/ochan10/bin/tarchiver.py" script: [0;32mOK[m
+
+
+Congratulations!
+
+You have successfully completed Lab 3.
+1. Submit a screenshot of your entire desktop (including this window) to your course professor.
+2. A copy of this script output has been created at /home/ochan10/Desktop/lab3_output.txt. Submit this file along with your screenshot.
+3. Also submit a copy of your tarchiver.py script.

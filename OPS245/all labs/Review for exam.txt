@@ -1,0 +1,21 @@
+how to find cpu usage on linux
+
+how to find memory usage on linux
+
+how to quickly find disk usage in linux
+
+yum history
+
+always disable root
+What characters can NOT be used in user account in Linux?
+
+password recovery
+
+setup linux as FTP, web, mail and firewall
+
+What is the command similar to yum in ohter distros
+
+find linux application
+5 linux apps
+use it 
+

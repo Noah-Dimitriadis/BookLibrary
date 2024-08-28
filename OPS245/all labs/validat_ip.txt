@@ -1,0 +1,22 @@
+
+import os
+import ipaddress
+
+device_name = input("Make sure you enter the correct Device name NIC(ex: eth0). \nEnter Device name: ")
+
+i = 1
+print(i)
+while i < 3:
+    ip_add = input("Enter IP address: ")
+    def validate_ip_address(address):
+        try:
+            ip = ipaddress.ip_address(address)
+            print("IP address {} is valid.".format(address))
+
+        except ValueError:
+            print("IP address {} is not valid.".format(address))
+
+
+    #print ("Device name: %s" %(device_name))
+    #print("New IP address: %s" %(ip_add))
+    validate_ip_address(ip_add.strip())

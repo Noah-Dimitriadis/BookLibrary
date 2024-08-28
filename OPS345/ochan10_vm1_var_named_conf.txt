@@ -1,0 +1,22 @@
+options {
+        directory "/var/named/";
+        allow-query {127.0.0.1; 192.168.0.0/24;};
+        forwarders {10.0.1.1;};
+        notify yes;
+        Allow-notify {192.168.0.20;};
+};
+
+zone "localhost" {
+        type master;
+        file "named.localhost";
+};
+
+zone "oliverchan.ops" {
+        type master;
+        file "mydb-for-oliverchan-ops";
+};
+
+zone "0.168.192.in-addr.arpa." {
+        type master;
+        file "mydb-for-192.168.0";
+};

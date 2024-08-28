@@ -1,0 +1,41 @@
+OPS245 Lab 5 Check Script
+
+SYSTEM INFORMATION:
+   Static hostname: ochan10
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: c196174a4a104f89be2982af6c123fbe
+           Boot ID: 5d3c23e9bff54bb1a9328ee18b6b9072
+    Virtualization: vmware
+  Operating System: CentOS Linux 7 (Core)
+       CPE OS Name: cpe:/o:centos:centos:7
+            Kernel: Linux 3.10.0-1160.66.1.el7.x86_64
+      Architecture: x86-64
+              Date: Tue Jul  5 23:48:25 EDT 2022
+
+CHECKING YOUR LAB 5 WORK:
+
+Checking that "/home/ochan10/bin/monitor-disk-space.py" file exists (c7host): [0;32mOK[m
+Checking for crontab file (c7host): [0;32mOK[m
+Checking that /dev/vda3 or /dev/sda3 partition created (centos2): 
+[0;32mOK[m
+Checking that "/dev/vda3" or "/dev/sda3" partition was mounted under "/archive" directory (centos2): 
+[0;32mOK[m
+Checking that "/dev/vda3" (or "/dev/sda3") partition was formatted for ext4 file-system: 
+[0;32mOK[m
+Checking that "/archive" logical volume has size: 2.5G (centos2): 
+[0;32mOK[m
+Checking that new virtual hard disk "/dev/vdb" (or "/dev/sdb") was created (centos2): 
+[0;32mOK[m
+Checking that "/dev/vdb1" (or "dev/sdb1")partition was created (centos2): 
+[0;32mOK[m
+Checking that that the "home" file system increased to 4G (centos2): [0;32mOK[m
+Checking that entry of "/archive" mount in /etc/fstab(centos2): [0;32mOK[m
+
+
+Congratulations!
+
+You have successfully completed Lab 5.
+1. Submit a screenshot of your entire desktop (including this window) to your course professor.
+2. A copy of this script output has been created at /home/ochan10/Desktop/lab5_output.txt. Submit this file along with your screenshot.
+3. Also submit a copy of your disk-monitor.py script.

@@ -1,0 +1,37 @@
+OPS245 Lab 8 Check Script
+
+SYSTEM INFORMATION:
+   Static hostname: ochan10
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: c196174a4a104f89be2982af6c123fbe
+           Boot ID: 7a7ad7498ae74fe3a8e0543d423a21ed
+    Virtualization: vmware
+  Operating System: CentOS Linux 7 (Core)
+       CPE OS Name: cpe:/o:centos:centos:7
+            Kernel: Linux 3.10.0-1160.71.1.el7.x86_64
+      Architecture: x86-64
+              Date: Thu Jul 28 20:27:05 EDT 2022
+
+CHECKING YOUR LAB 8 WORK:
+
+Checking BOOTPROTO set to "dhcp" for centos1 VM: 
+[0;32mOK[m
+Checking that dhcp service is currently running on your centos3 VM: 
+[0;32mOK[m
+Checking " DHCPDISCOVER, DHCPOFFER, DHCPREQUEST & DHCPACK" on
+ "/var/log/messages" on centos3 VM: 
+[0;32mOK[m
+Checking for non-empty "/var/lib/dhcpd/dhcpd.leases" file on centos3 VM: 
+[0;32mOK[m
+Checking that centos3 VM can ping centos1 host (IPADDR: "192.168.245.42"): 
+[0;32mOK[m
+Checking that "/var/lib/dhclient" directory is non-empty on centos1 VM: 
+[0;32mOK[m
+
+
+Congratulations!
+
+You have successfully completed Lab 8.
+1. Submit a screenshot of your entire desktop (including this window) to your course professor.
+2. A copy of this script output has been created at /home/ochan10/Desktop/lab8_output.txt. Submit this file along with your screenshot.

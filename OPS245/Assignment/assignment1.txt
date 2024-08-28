@@ -1,0 +1,146 @@
+
+
+check rpm signature package
+$ rpm --checksig pidgin-2.7.9-5.el6.2.i686.rpm
+
+
+install rpm package
+# rpm -ivh pidgin-2.7.9-5.el6.2.i686.rpm
+
+How to check an Installed RPM Package
+rpm -q BitTorrent
+
+
+How to List all files of an installed RPM package
+# rpm -ql BitTorrent
+
+
+How to List Recently Installed RPM Packages
+# rpm -qa --last
+
+
+How to List All Installed RPM Packagesr
+# rpm -qa
+
+How to Remove a RPM Package
+# rpm -evv nx
+
+
+How to Verify a RPM Package
+rpm -Vp sqlbuddy-1.3.3-1.noarch.rpm
+
+
+
+
+Get the Information of RPM Package Before Installing
+# rpm -qip sqlbuddy-1.3.3-1.noarch.rpm
+
+There are five basic modes for RPM command
+Install : It is used to install any RPM package.
+Remove : It is used to erase, remove or un-install any RPM package.
+Upgrade : It is used to update the existing RPM package.
+Verify : It is used to verify an RPM packages.
+Query : It is used query any RPM package.
+Where to find RPM packages
+Below is the list of rpm sites, where you can find and download all RPM packages.
+
+http://rpmfind.net
+http://www.redhat.com
+http://freshrpms.net/
+http://rpm.pbone.net/
+
+mysql repository:
+sudo yum localinstall https://dev.mysql.com/get/mysql80-community-release-el7-1.noarch.rpm
+
+sudo yum localinstall https://dev.mysql.com/get/mysql57-commu1nity-release-el7-11.noarch.rpm
+
+
+
+sudo yum localinstall https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm
+
+
+
+1. How to Check an RPM Signature Package
+[root@tecmint]# rpm --checksig pidgin-2.7.9-5.el6.2.i686.rpm
+pidgin-2.7.9-5.el6.2.i686.rpm: rsa sha1 (md5) pgp md5 
+
+2. How to Install an RPM Package
+[root@tecmint]# rpm -ivh pidgin-2.7.9-5.el6.2.i686.rpm
+
+3. How to check dependencies of RPM Package before Installing
+[root@tecmint]# rpm -qpR BitTorrent-5.2.2-1-Python2.4.noarch.rpm
+
+RPM command and options
+-q : Query a package
+-p : List capabilities this package provides.
+-R: List capabilities on which this package depends..
+
+4. How to Install a RPM Package Without Dependencies
+[root@tecmint]# rpm -ivh --nodeps BitTorrent-5.2.2-1-Python2.4.noarch.rpmr
+
+5. How to check an Installed RPM Package
+[root@tecmint]# rpm -q BitTorrent
+BitTorrent-5.2.2-1.noarch
+
+6. How to List all files of an installed RPM package
+[root@tecmint]# rpm -ql BitTorrent
+
+7. How to List Recently Installed RPM Packages
+[root@tecmint]# rpm -qa --last
+
+8. How to List All Installed RPM Packages
+[root@tecmint]# rpm -qa
+
+initscripts-9.03.31-2.el6.centos.i686
+polkit-desktop-policy-0.96-2.el6_0.1.noarch
+thunderbird-17.0-1.el6.remi.i686
+
+9. How to Upgrade a RPM Package
+[root@tecmint]# rpm -Uvh nx-3.5.0-2.el6.centos.i686.rpm
+
+10. How to Remove a RPM Package
+[root@tecmint]# rpm -evv nx
+rp
+11. How to Remove an RPM Package Without Dependencies
+[root@tecmint]# rpm -ev --nodeps vsftpd
+
+12. How to Query a file that belongs which RPM Package
+[root@tecmint]# rpm -qf /usr/bin/htpasswd
+
+httpd-tools-2.2.15-15.el6.centos.1.i686
+
+
+13. How to Query a Information of Installed RPM Package
+[root@tecmint]# rpm -qi vsftpd
+
+14. Get the Information of RPM Package Before Installing
+[root@tecmint]# rpm -qip sqlbuddy-1.3.3-1.noarch.rpm
+
+15. How to Query documentation of Installed RPM Package
+[root@tecmint]# rpm -qdf /usr/bin/vmstat
+
+
+16. How to Verify a RPM Package
+[root@tecmint downloads]# rpm -Vp sqlbuddy-1.3.3-1.noarch.rpm
+
+S.5....T.  c /etc/httpd/conf.d/sqlbuddy.conf
+
+17. How to Verify all RPM Packages
+[root@tecmint]# rpm -Va
+
+
+18. How to Import an RPM GPG key
+[root@tecmint]# rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+
+19. How to List all Imported RPM GPG keys
+[root@tecmint]# rpm -qa gpg-pubkey*
+
+
+20. How To rebuild Corrupted RPM Database
+[root@tecmint]# cd /var/lib
+[root@tecmint]# rm __db*
+[root@tecmint]# rpm --rebuilddb
+[root@tecmint]# rpmdb_verify Packages
+
+
+

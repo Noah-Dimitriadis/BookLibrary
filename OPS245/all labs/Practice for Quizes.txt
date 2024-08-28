@@ -1,0 +1,12 @@
+Practice For Quizzes, Tests, Midterm & Final Exam
+
+- Define the term Virtual Machine.
+- List the major screens (steps) in the installation of Centos7 full install DVD.
+- What key-combination is used to toggle the view of your running VM from "window-mode" to "full-screen-mode"?
+- List the steps for setting SELinux to permissive mode.
+- What is the home directory for the user "root"?
+- How do you determine the host name of your GNU/Linux workstation?
+- What command can display the NIC's MAC address?
+- What command is used to get a list of running processes on your newly-installed system?
+- Write the Linux command to download the on-line file: http://linux.server.org/package.tar.gz
+- Write a Python Shell Script to prompt the user for a directory, and then display the file types  for all files in that specified directory (hint: use the read command and then use the file command and command substitution with the ls command). Test the Bash Shell script by adding execute permissions and run the Bash Shell Script.

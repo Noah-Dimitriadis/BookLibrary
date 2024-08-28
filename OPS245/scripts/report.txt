@@ -1,0 +1,264 @@
+
+
+System Report 
+
+The current date: Saturday May 21, 2022 (04:37 PM)
+
+The Hostname of the machine:  ochan10
+
+The kernel version:  3.10.0-1160.66.1.el7.x86_64
+
+The IP address: 
+ 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 00:0c:29:f6:28:58 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.88.139/24 brd 192.168.88.255 scope global noprefixroute dynamic ens33
+       valid_lft 1318sec preferred_lft 1318sec
+    inet6 fe80::57c0:a8f:e04a:d8ff/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+3: virbr0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default qlen 1000
+    link/ether 52:54:00:1f:ec:dc brd ff:ff:ff:ff:ff:ff
+    inet 192.168.122.1/24 brd 192.168.122.255 scope global virbr0
+       valid_lft forever preferred_lft forever
+4: virbr0-nic: <BROADCAST,MULTICAST> mtu 1500 qdisc pfifo_fast master virbr0 state DOWN group default qlen 1000
+    link/ether 52:54:00:1f:ec:dc brd ff:ff:ff:ff:ff:ff
+
+The list of all processes: 
+ USER        PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root          1  0.0  0.0 128416  7120 ?        Ss   15:48   0:02 /usr/lib/systemd/systemd --switched-root --system --deserialize 22
+root          2  0.0  0.0      0     0 ?        S    15:48   0:00 [kthreadd]
+root          4  0.0  0.0      0     0 ?        S<   15:48   0:00 [kworker/0:0H]
+root          6  0.0  0.0      0     0 ?        S    15:48   0:00 [ksoftirqd/0]
+root          7  0.0  0.0      0     0 ?        S    15:48   0:00 [migration/0]
+root          8  0.0  0.0      0     0 ?        S    15:48   0:00 [rcu_bh]
+root          9  0.0  0.0      0     0 ?        S    15:48   0:00 [rcu_sched]
+root         10  0.0  0.0      0     0 ?        S<   15:48   0:00 [lru-add-drain]
+root         11  0.5  0.0      0     0 ?        S    15:48   0:17 [watchdog/0]
+root         12  0.6  0.0      0     0 ?        S    15:48   0:18 [watchdog/1]
+root         13  0.0  0.0      0     0 ?        S    15:48   0:00 [migration/1]
+root         14  0.0  0.0      0     0 ?        S    15:48   0:00 [ksoftirqd/1]
+root         16  0.0  0.0      0     0 ?        S<   15:48   0:00 [kworker/1:0H]
+root         17  0.0  0.0      0     0 ?        S    15:48   0:00 [watchdog/2]
+root         18  0.0  0.0      0     0 ?        S    15:48   0:00 [migration/2]
+root         19  0.0  0.0      0     0 ?        S    15:48   0:00 [ksoftirqd/2]
+root         21  0.0  0.0      0     0 ?        S<   15:48   0:00 [kworker/2:0H]
+root         22  0.5  0.0      0     0 ?        S    15:48   0:15 [watchdog/3]
+root         23  0.0  0.0      0     0 ?        S    15:48   0:00 [migration/3]
+root         24  0.0  0.0      0     0 ?        S    15:48   0:00 [ksoftirqd/3]
+root         26  0.0  0.0      0     0 ?        S<   15:48   0:00 [kworker/3:0H]
+root         28  0.0  0.0      0     0 ?        S    15:48   0:00 [kdevtmpfs]
+root         29  0.0  0.0      0     0 ?        S<   15:48   0:00 [netns]
+root         30  0.0  0.0      0     0 ?        S    15:48   0:00 [khungtaskd]
+root         31  0.0  0.0      0     0 ?        S<   15:48   0:00 [writeback]
+root         32  0.0  0.0      0     0 ?        S<   15:48   0:00 [kintegrityd]
+root         33  0.0  0.0      0     0 ?        S<   15:48   0:00 [bioset]
+root         34  0.0  0.0      0     0 ?        S<   15:48   0:00 [bioset]
+root         35  0.0  0.0      0     0 ?        S<   15:48   0:00 [bioset]
+root         36  0.0  0.0      0     0 ?        S<   15:48   0:00 [kblockd]
+root         37  0.0  0.0      0     0 ?        S<   15:48   0:00 [md]
+root         38  0.0  0.0      0     0 ?        S<   15:48   0:00 [edac-poller]
+root         39  0.0  0.0      0     0 ?        S<   15:48   0:00 [watchdogd]
+root         40  0.0  0.0      0     0 ?        S    15:48   0:00 [kworker/0:1]
+root         45  0.0  0.0      0     0 ?        S    15:48   0:00 [kswapd0]
+root         46  0.0  0.0      0     0 ?        SN   15:48   0:00 [ksmd]
+root         47  0.0  0.0      0     0 ?        SN   15:48   0:00 [khugepaged]
+root         48  0.0  0.0      0     0 ?        S<   15:48   0:00 [crypto]
+root         56  0.0  0.0      0     0 ?        S<   15:48   0:00 [kthrotld]
+root         58  0.0  0.0      0     0 ?        S<   15:48   0:00 [kmpath_rdacd]
+root         59  0.0  0.0      0     0 ?        S<   15:48   0:00 [kaluad]
+root         60  0.0  0.0      0     0 ?        S    15:48   0:01 [kworker/1:1]
+root         61  0.0  0.0      0     0 ?        S<   15:48   0:00 [kpsmoused]
+root         63  0.0  0.0      0     0 ?        S<   15:48   0:00 [ipv6_addrconf]
+root         64  0.0  0.0      0     0 ?        S    15:48   0:00 [kworker/2:1]
+root         77  0.0  0.0      0     0 ?        S<   15:48   0:00 [deferwq]
+root        117  0.0  0.0      0     0 ?        S    15:48   0:00 [kauditd]
+root        123  0.0  0.0      0     0 ?        S    15:48   0:00 [kworker/3:1]
+root        302  0.0  0.0      0     0 ?        S<   15:48   0:00 [mpt_poll_0]
+root        304  0.0  0.0      0     0 ?        S<   15:48   0:00 [mpt/0]
+root        305  0.0  0.0      0     0 ?        S<   15:48   0:00 [ata_sff]
+root        307  0.0  0.0      0     0 ?        S<   15:48   0:00 [nfit]
+root        319  0.0  0.0      0     0 ?        S    15:48   0:00 [scsi_eh_0]
+root        320  0.0  0.0      0     0 ?        S<   15:48   0:00 [scsi_tmf_0]
+root        322  0.0  0.0      0     0 ?        S    15:48   0:00 [scsi_eh_1]
+root        323  0.0  0.0      0     0 ?        S<   15:48   0:00 [scsi_tmf_1]
+root        324  0.0  0.0      0     0 ?        S    15:48   0:00 [scsi_eh_2]
+root        325  0.0  0.0      0     0 ?        S<   15:48   0:00 [scsi_tmf_2]
+root        327  0.0  0.0      0     0 ?        S    15:48   0:00 [irq/16-vmwgfx]
+root        329  0.0  0.0      0     0 ?        S<   15:48   0:00 [ttm_swap]
+root        342  0.0  0.0      0     0 ?        S    15:48   0:00 [kworker/3:2]
+root        350  0.0  0.0      0     0 ?        S    15:48   0:00 [kworker/2:2]
+root        406  0.0  0.0      0     0 ?        S<   15:48   0:00 [kdmflush]
+root        407  0.0  0.0      0     0 ?        S<   15:48   0:00 [bioset]
+root        417  0.0  0.0      0     0 ?        S<   15:48   0:00 [kdmflush]
+root        418  0.0  0.0      0     0 ?        S<   15:48   0:00 [bioset]
+root        434  0.0  0.0      0     0 ?        S    15:48   0:00 [jbd2/dm-0-8]
+root        435  0.0  0.0      0     0 ?        S<   15:48   0:00 [ext4-rsv-conver]
+root        519  0.0  0.0  39416  4680 ?        Ss   15:48   0:00 /usr/lib/systemd/systemd-journald
+root        544  0.0  0.0 201108  6020 ?        Ss   15:48   0:00 /usr/sbin/lvmetad -f
+root        561  0.0  0.0  50344  6680 ?        Ss   15:48   0:02 /usr/lib/systemd/systemd-udevd
+root        654  0.0  0.0      0     0 ?        S<   15:48   0:00 [kworker/2:1H]
+root        655  0.0  0.0      0     0 ?        S<   15:48   0:00 [kworker/1:1H]
+root        656  0.0  0.0      0     0 ?        S<   15:48   0:00 [kdmflush]
+root        657  0.0  0.0      0     0 ?        S<   15:48   0:00 [bioset]
+root        658  0.0  0.0      0     0 ?        S<   15:48   0:00 [kdmflush]
+root        659  0.0  0.0      0     0 ?        S<   15:48   0:00 [bioset]
+root        667  0.0  0.0      0     0 ?        S<   15:48   0:00 [kvm-irqfd-clean]
+root        668  0.0  0.0      0     0 ?        S<   15:48   0:00 [bioset]
+root        669  0.0  0.0      0     0 ?        S<   15:48   0:00 [xfsalloc]
+root        670  0.0  0.0      0     0 ?        S<   15:48   0:00 [xfs_mru_cache]
+root        671  0.0  0.0      0     0 ?        S<   15:48   0:00 [xfs-buf/sda2]
+root        672  0.0  0.0      0     0 ?        S<   15:48   0:00 [xfs-data/sda2]
+root        673  0.0  0.0      0     0 ?        S<   15:48   0:00 [kworker/0:1H]
+root        674  0.0  0.0      0     0 ?        S<   15:48   0:00 [xfs-conv/sda2]
+root        675  0.0  0.0      0     0 ?        S<   15:48   0:00 [xfs-cil/sda2]
+root        676  0.0  0.0      0     0 ?        S<   15:48   0:00 [xfs-reclaim/sda]
+root        677  0.0  0.0      0     0 ?        S<   15:48   0:00 [xfs-log/sda2]
+root        678  0.0  0.0      0     0 ?        S<   15:48   0:00 [xfs-eofblocks/s]
+root        679  0.0  0.0      0     0 ?        S    15:48   0:00 [xfsaild/sda2]
+root        719  0.0  0.0      0     0 ?        S    15:48   0:00 [jbd2/dm-2-8]
+root        720  0.0  0.0      0     0 ?        S<   15:48   0:00 [ext4-rsv-conver]
+root        724  0.0  0.0      0     0 ?        S    15:48   0:00 [jbd2/dm-3-8]
+root        725  0.0  0.0      0     0 ?        S<   15:48   0:00 [ext4-rsv-conver]
+root        752  0.0  0.0      0     0 ?        S<   15:48   0:00 [rpciod]
+root        753  0.0  0.0      0     0 ?        S<   15:48   0:00 [xprtiod]
+root        755  0.0  0.0  55532   860 ?        S<sl 15:48   0:00 /sbin/auditd
+root        757  0.0  0.0  84556   804 ?        S<sl 15:48   0:00 /sbin/audispd
+root        759  0.0  0.0  55620  1412 ?        S<   15:48   0:00 /usr/sbin/sedispatch
+rtkit       781  0.0  0.0 198784  1780 ?        SNsl 15:48   0:00 /usr/libexec/rtkit-daemon
+rpc         783  0.0  0.0  69256  1008 ?        Ss   15:48   0:00 /sbin/rpcbind -w
+root        785  0.0  0.0  21684  1320 ?        Ss   15:48   0:00 /usr/sbin/irqbalance --foreground
+libstor+    786  0.0  0.0   8580   840 ?        Ss   15:48   0:00 /usr/bin/lsmd -d
+root        788  0.0  0.0  52792  2744 ?        Ss   15:48   0:00 /usr/sbin/smartd -n -q never
+root        790  0.0  0.0  16900  1388 ?        SNs  15:48   0:00 /usr/sbin/alsactl -s -n 19 -c -E ALSA_CONFIG_PATH=/etc/alsa/alsactl.conf --initfile=/lib/alsa/init/00main rdaemon
+root        791  0.0  0.1 451508  8900 ?        Ssl  15:48   0:00 /usr/libexec/udisks2/udisksd
+root        792  0.0  0.0  26460  1840 ?        Ss   15:48   0:00 /usr/lib/systemd/systemd-logind
+root        793  0.0  0.0  90652  3280 ?        Ss   15:48   0:01 /sbin/rngd -f
+polkitd     794  0.0  0.1 616540 15084 ?        Ssl  15:48   0:01 /usr/lib/polkit-1/polkitd --no-debug
+root        795  0.0  0.0 396548  4128 ?        Ssl  15:48   0:00 /usr/libexec/accounts-daemon
+root        798  0.0  0.0 430628  7568 ?        Ssl  15:48   0:00 /usr/sbin/ModemManager
+dbus        800  0.0  0.0  70112  4156 ?        Ssl  15:48   0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root        802  0.0  0.0 201428  1280 ?        Ssl  15:48   0:00 /usr/sbin/gssproxy -D
+avahi       823  0.0  0.0  62268  2244 ?        Ss   15:48   0:00 avahi-daemon: running [ochan10.local]
+root        824  0.0  0.0 228296  5736 ?        Ss   15:48   0:00 /usr/sbin/abrtd -d -s
+root        826  0.0  0.0 225880  4812 ?        Ss   15:48   0:00 /usr/bin/abrt-watch-log -F Backtrace /var/log/Xorg.0.log -- /usr/bin/abrt-dump-xorg -xD
+root        829  0.0  0.0 168228  5068 ?        Ss   15:48   0:00 /usr/bin/VGAuthService -s
+root        832  0.1  0.0 295456  5216 ?        Ssl  15:48   0:03 /usr/bin/vmtoolsd
+root        834  0.0  0.0 225880  4812 ?        Ss   15:48   0:00 /usr/bin/abrt-watch-log -F BUG: WARNING: at WARNING: CPU: INFO: possible recursive locking detected ernel BUG at list_del corruption list_add corruption do_IRQ: stack overflow: ear stack overflow (cur: eneral protection fault nable to handle kernel ouble fault: RTNL: assertion failed eek! page_mapcount(page) went negative! adness at NETDEV WATCHDOG ysctl table check failed : nobody cared IRQ handler type mismatch Kernel panic - not syncing: Machine Check Exception: Machine check events logged divide error: bounds: coprocessor segment overrun: invalid TSS: segment not present: invalid opcode: alignment check: stack segment: fpu exception: simd exception: iret exception: /var/log/messages -- /usr/bin/abrt-dump-oops -xtD
+avahi       838  0.0  0.0  62140   400 ?        S    15:48   0:00 avahi-daemon: chroot helper
+root        851  0.0  0.0 115408   952 ?        S    15:48   0:00 /bin/bash /usr/sbin/ksmtuned
+root        859  0.0  0.3 358616 29484 ?        Ssl  15:48   0:01 /usr/bin/python2 -Es /usr/sbin/firewalld --nofork --nopid
+root        898  0.0  0.1 564300  9904 ?        Ssl  15:48   0:00 /usr/sbin/NetworkManager --no-daemon
+root       1027  0.0  0.0 102988  5528 ?        S    15:48   0:00 /sbin/dhclient -d -q -sf /usr/libexec/nm-dhcp-helper -pf /var/run/dhclient-ens33.pid -lf /var/lib/NetworkManager/dhclient-1f18bc5b-4bc3-4ab1-9e8e-d89592b37b16-ens33.lease -cf /var/lib/NetworkManager/dhclient-ens33.conf ens33
+root       1215  0.0  0.0 198056  4288 ?        Ss   15:48   0:00 /usr/sbin/cupsd -f
+root       1216  0.0  0.0 112984  4328 ?        Ss   15:48   0:00 /usr/sbin/sshd -D
+root       1218  0.0  0.2 574288 17476 ?        Ssl  15:48   0:00 /usr/bin/python2 -Es /usr/sbin/tuned -l -P
+root       1223  0.0  0.0 222740  5556 ?        Ssl  15:48   0:00 /usr/sbin/rsyslogd -n
+root       1228  0.0  0.2 1010824 20772 ?       Ssl  15:48   0:00 /usr/sbin/libvirtd
+root       1240  0.0  0.0 126388  1692 ?        Ss   15:48   0:00 /usr/sbin/crond -n
+root       1242  0.0  0.0 481532  6800 ?        Ssl  15:48   0:00 /usr/sbin/gdm
+root       1243  0.0  0.0  25908   948 ?        Ss   15:48   0:00 /usr/sbin/atd -f
+root       1277  0.6  0.6 360064 55080 tty1     Ssl+ 15:48   0:19 /usr/bin/X :0 -background none -noreset -audit 4 -verbose -auth /run/gdm/auth-for-gdm-NozVAP/database -seat seat0 -nolisten tcp vt1
+root       1309  0.0  0.0      0     0 ?        S<   15:48   0:00 [kworker/3:1H]
+root       1530  0.0  0.0  91872  2180 ?        Ss   15:48   0:00 /usr/libexec/postfix/master -w
+postfix    1538  0.0  0.0  91976  4108 ?        S    15:48   0:00 pickup -l -t unix -u
+postfix    1539  0.0  0.0  92044  4124 ?        S    15:48   0:00 qmgr -l -t unix -u
+nobody     1776  0.0  0.0  56124  1092 ?        S    15:48   0:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/libexec/libvirt_leaseshelper
+root       1777  0.0  0.0  56096   388 ?        S    15:48   0:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/libexec/libvirt_leaseshelper
+root       2007  0.0  0.0 430456  7280 ?        Ssl  15:48   0:00 /usr/libexec/upowerd
+root       2076  0.0  0.0 398760  4084 ?        Ssl  15:48   0:00 /usr/libexec/boltd
+root       2082  0.0  0.0 412600  7680 ?        Ssl  15:48   0:00 /usr/libexec/packagekitd
+root       2083  0.0  0.0  78660  3368 ?        Ss   15:48   0:00 /usr/sbin/wpa_supplicant -u -f /var/log/wpa_supplicant.log -c /etc/wpa_supplicant/wpa_supplicant.conf -P /var/run/wpa_supplicant.pid
+colord     2161  0.0  0.0 419564  6280 ?        Ssl  15:49   0:00 /usr/libexec/colord
+root       2296  0.0  0.0      0     0 ?        S    15:53   0:00 [kworker/3:0]
+root       2323  0.0  0.0      0     0 ?        S    15:54   0:01 [kworker/0:0]
+root       2328  0.0  0.0 388060  5364 ?        Sl   15:54   0:00 gdm-session-worker [pam/gdm-password]
+ochan10    2339  0.0  0.0 317512  3820 ?        Sl   15:54   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ochan10    2361  0.0  0.1 745368 11436 ?        Ssl  15:55   0:00 /usr/libexec/gnome-session-binary --session gnome-classic
+ochan10    2370  0.0  0.0  59016   976 ?        S    15:55   0:00 dbus-launch --sh-syntax --exit-with-session
+ochan10    2371  0.0  0.0  69328  2640 ?        Ssl  15:55   0:01 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+ochan10    2402  0.0  0.0 286120  3988 ?        Sl   15:55   0:00 /usr/libexec/imsettings-daemon
+ochan10    2406  0.0  0.0 388836  6080 ?        Sl   15:55   0:00 /usr/libexec/gvfsd
+ochan10    2411  0.0  0.0 417828  5248 ?        Sl   15:55   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ochan10    2493  0.0  0.0  72552   780 ?        Ss   15:55   0:00 /usr/bin/ssh-agent /bin/sh -c exec -l /bin/bash -c "env GNOME_SHELL_SESSION_MODE=classic gnome-session --session gnome-classic"
+ochan10    2511  0.0  0.0 346772  3692 ?        Sl   15:55   0:00 /usr/libexec/at-spi-bus-launcher
+ochan10    2516  0.0  0.0  68392  2476 ?        Sl   15:55   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+ochan10    2519  0.0  0.0 233104  3952 ?        Sl   15:55   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ochan10    2548  2.1  2.3 3803572 186304 ?      Sl   15:55   0:55 /usr/bin/gnome-shell
+ochan10    2562  0.0  0.0 1285388 7096 ?        S<l  15:55   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+ochan10    2584  0.0  0.0 453212  7480 ?        Sl   15:55   0:00 ibus-daemon --xim --panel disable
+ochan10    2588  0.0  0.0 376048  5680 ?        Sl   15:55   0:00 /usr/libexec/ibus-dconf
+ochan10    2590  0.0  0.1 464976 13828 ?        Sl   15:55   0:00 /usr/libexec/ibus-x11 --kill-daemon
+ochan10    2593  0.0  0.0 376044  5452 ?        Sl   15:55   0:00 /usr/libexec/ibus-portal
+ochan10    2604  0.0  0.0 364784  2888 ?        Sl   15:55   0:00 /usr/libexec/xdg-permission-store
+ochan10    2609  0.0  0.1 650228 12024 ?        Sl   15:55   0:00 /usr/libexec/gnome-shell-calendar-server
+ochan10    2614  0.0  0.2 764640 18348 ?        Sl   15:55   0:00 /usr/libexec/evolution-source-registry
+geoclue    2618  0.0  0.2 531576 16588 ?        Ssl  15:55   0:00 /usr/libexec/geoclue -t 5
+ochan10    2629  0.0  0.3 902856 31104 ?        Sl   15:55   0:00 /usr/libexec/goa-daemon
+ochan10    2634  0.0  0.0 411944  7684 ?        Sl   15:55   0:00 /usr/libexec/mission-control-5
+ochan10    2640  0.0  0.0 563468  7676 ?        Sl   15:55   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ochan10    2647  0.0  0.0 478592  4456 ?        Sl   15:55   0:00 /usr/libexec/gvfs-afc-volume-monitor
+ochan10    2653  0.0  0.0 371768  5172 ?        Sl   15:55   0:00 /usr/libexec/gvfs-goa-volume-monitor
+ochan10    2670  0.0  0.1 527772  8120 ?        Sl   15:55   0:00 /usr/libexec/goa-identity-service
+ochan10    2688  0.0  0.0 400772  3616 ?        Sl   15:55   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ochan10    2696  0.0  0.0 391680  3376 ?        Sl   15:55   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+ochan10    2715  0.0  0.0 456888  5516 ?        Sl   15:55   0:00 /usr/libexec/gsd-account
+ochan10    2718  0.0  0.2 705580 16944 ?        Sl   15:55   0:00 /usr/libexec/gsd-power
+ochan10    2720  0.0  0.0 439288  5464 ?        Sl   15:55   0:00 /usr/libexec/gsd-print-notifications
+ochan10    2724  0.0  0.0 538988  5432 ?        Sl   15:55   0:00 /usr/libexec/gsd-rfkill
+ochan10    2726  0.0  0.0 374296  2936 ?        Sl   15:55   0:00 /usr/libexec/gsd-screensaver-proxy
+ochan10    2732  0.0  0.0 559372  7340 ?        Sl   15:55   0:00 /usr/libexec/gsd-sharing
+ochan10    2735  0.0  0.2 615340 17228 ?        Sl   15:55   0:00 /usr/libexec/gsd-xsettings
+ochan10    2736  0.0  0.0 455056  4836 ?        Sl   15:55   0:00 /usr/libexec/gsd-sound
+ochan10    2738  0.0  0.0 472604  5144 ?        Sl   15:55   0:00 /usr/libexec/gsd-smartcard
+ochan10    2750  0.0  0.1 623164 14420 ?        Sl   15:55   0:00 /usr/libexec/gsd-wacom
+ochan10    2759  0.0  0.0 376560  3344 ?        Sl   15:55   0:00 /usr/libexec/gsd-a11y-settings
+ochan10    2762  0.0  0.1 464600 13628 ?        Sl   15:55   0:00 /usr/libexec/gsd-clipboard
+ochan10    2765  0.0  0.1 779796 15168 ?        Sl   15:55   0:00 /usr/libexec/gsd-color
+ochan10    2766  0.0  0.1 541600  8448 ?        Sl   15:55   0:00 /usr/libexec/gsd-datetime
+ochan10    2767  0.0  0.0 463580  4116 ?        Sl   15:55   0:00 /usr/libexec/gsd-housekeeping
+ochan10    2775  0.0  0.2 916892 16288 ?        Sl   15:55   0:00 /usr/libexec/evolution-calendar-factory
+ochan10    2780  0.0  0.1 614348 13820 ?        Sl   15:55   0:00 /usr/libexec/gsd-keyboard
+ochan10    2788  0.0  0.1 1143224 15840 ?       Sl   15:55   0:00 /usr/libexec/gsd-media-keys
+ochan10    2795  0.0  0.0 376564  3340 ?        Sl   15:55   0:00 /usr/libexec/gsd-mouse
+ochan10    2799  0.0  0.2 1127096 18140 ?       Sl   15:55   0:00 /usr/libexec/evolution-calendar-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx2775x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/2775/2
+ochan10    2829  0.0  0.0 608724  7792 ?        Sl   15:55   0:00 /usr/libexec/gsd-printer
+ochan10    2849  0.0  0.0 187520  2872 ?        Sl   15:55   0:00 /usr/libexec/dconf-service
+ochan10    2850  0.0  0.3 884060 27784 ?        Sl   15:55   0:01 nautilus-desktop --force
+ochan10    2858  0.0  0.1 903612 15720 ?        Sl   15:55   0:00 /usr/libexec/evolution-addressbook-factory
+ochan10    2875  0.0  0.0 464880  6688 ?        Sl   15:55   0:00 /usr/libexec/gvfsd-trash --spawner :1.4 /org/gtk/gvfs/exec_spaw/0
+ochan10    2878  0.0  0.0 302380  3512 ?        Sl   15:55   0:00 /usr/libexec/ibus-engine-simple
+ochan10    2887  0.0  0.2 1185860 19412 ?       Sl   15:55   0:00 /usr/libexec/evolution-addressbook-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx2858x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/2858/2
+ochan10    2906  0.0  0.1 310072  9836 ?        S    15:55   0:00 /usr/bin/seapplet
+ochan10    2908  0.0  0.1 660848 13272 ?        SNl  15:55   0:00 /usr/libexec/tracker-extract
+ochan10    2915  0.1  0.3 608472 25360 ?        Sl   15:55   0:02 /usr/bin/vmtoolsd -n vmusr
+ochan10    2930  0.0  0.1 632416 10568 ?        SNl  15:55   0:00 /usr/libexec/tracker-miner-apps
+ochan10    2934  0.0  0.1 525420 13232 ?        Sl   15:55   0:00 /usr/libexec/tracker-store
+ochan10    2951  0.0  0.1 722992 11496 ?        SNl  15:55   0:00 /usr/libexec/tracker-miner-fs
+ochan10    2967  0.0  0.1 562076  9972 ?        SNl  15:55   0:00 /usr/libexec/tracker-miner-user-guides
+ochan10    2973  0.0  0.0 273068  3560 ?        Sl   15:55   0:00 /usr/libexec/gsd-disk-utility-notify
+ochan10    2975  0.0  1.0 1431328 82928 ?       Sl   15:55   0:02 /usr/bin/gnome-software --gapplication-service
+ochan10    2985  0.0  0.2 530128 16748 ?        Sl   15:55   0:00 abrt-applet
+root       3090  0.0  0.1 586256  8432 ?        Ssl  15:55   0:00 /usr/libexec/fwupd/fwupd
+ochan10    3097  0.0  0.0 536200  5916 ?        Sl   15:55   0:00 /usr/libexec/gvfsd-burn --spawner :1.4 /org/gtk/gvfs/exec_spaw/1
+root       3287  0.0  0.0      0     0 ?        S    16:00   0:00 [kworker/1:2]
+root       3351  0.0  0.0 123360   732 ?        Ss   16:01   0:00 /usr/sbin/anacron -s
+ochan10    3490  0.0  0.0 317940  3296 ?        Sl   16:11   0:00 /usr/libexec/gvfsd-metadata
+root       3646  0.0  0.0      0     0 ?        S    16:18   0:00 [kworker/u256:1]
+root       3826  0.0  0.0      0     0 ?        S    16:26   0:00 [kworker/u256:0]
+root       4197  0.0  0.0 350536  6708 ?        Sl   16:35   0:00 /usr/sbin/abrt-dbus -t133
+root       4270  0.0  0.0 108052   356 ?        S    16:36   0:00 sleep 60
+ochan10    4278  0.8  0.3 735756 27096 ?        Sl   16:36   0:00 /usr/libexec/gnome-terminal-server
+ochan10    4285  0.0  0.0   8536   720 ?        S    16:36   0:00 gnome-pty-helper
+ochan10    4286  0.0  0.0 116420  2920 pts/0    Ss   16:36   0:00 bash
+ochan10    4357  0.0  0.0 134884  7416 pts/0    S+   16:37   0:00 python3 ./myreport.py
+ochan10    4358  0.0  0.0      0     0 pts/0    Z+   16:37   0:00 [date] <defunct>
+ochan10    4359  0.0  0.0      0     0 pts/0    Z+   16:37   0:00 [hostname] <defunct>
+ochan10    4360  0.0  0.0      0     0 pts/0    Z+   16:37   0:00 [uname] <defunct>
+ochan10    4361  0.0  0.0      0     0 pts/0    Z+   16:37   0:00 [ip] <defunct>
+ochan10    4362  0.0  0.0 155448  1872 pts/0    R+   16:37   0:00 ps aux
+

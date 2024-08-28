@@ -1,0 +1,31 @@
+OPS245 Lab 2 Check Script
+
+CHECKING YOUR LAB 2 WORK:
+
+Checking for existence of "/home/ochan10/bin" directory in c7host: [0;32mOK[m
+Checking for pathname "/home/ochan10/bin/lab2-check.bash"[0;32mOK[m
+Checking that "centos1", "centos2", and "centos3" VMs have been created:[0;32mOK[m
+Checking that "centos1", "centos2", and "centos3" VMs are ALL running:[0;32mOK[m
+Checking that "centos1" has correct ext4 file-system type:
+[0;32mOK[m
+Checking that "centos2" has correct ext4 file-system types:
+[0;32mOK[m
+Checking that "centos2" has correct partition sizes:
+[0;32mOK[m
+Checking that "/var/lib/libvirt/images/centos1.qcow2" file exists:
+[0;32mOK[m
+Checking that "/var/lib/libvirt/images/centos2.qcow2" file exists:[0;32mOK[m
+Checking that "/var/lib/libvirt/images/centos3.qcow2" file exists:[0;32mOK[m
+Checking that file pathname "/home/ochan10/bin/backupVM.py" exists:[0;32mOK[m
+Checking that centos1 backed up in user's home directory:[0;32mOK[m
+Checking that centos2 backed up in user's home directory:[0;32mOK[m
+Checking that centos3 backed up in user's home directory:
+[0;32mOK[m
+
+
+Congratulations!
+
+You have successfully completed Lab 2.
+1. Submit a screenshot of your entire desktop (including this window) to your course professor.
+2. A copy of this script output has been created at /home/ochan10/Desktop/lab2_output.txt. Submit this file along with your screenshot.
+3. Also submit a copy of your backupVM.py script.

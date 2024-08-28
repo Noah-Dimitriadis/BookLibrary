@@ -1,0 +1,37 @@
+OPS245 Lab 1 Check Script
+
+SYSTEM INFORMATION:
+   Static hostname: ochan10
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: c196174a4a104f89be2982af6c123fbe
+           Boot ID: 503c5ae7100c4ab493581eaa55bf0807
+    Virtualization: vmware
+  Operating System: CentOS Linux 7 (Core)
+       CPE OS Name: cpe:/o:centos:centos:7
+            Kernel: Linux 3.10.0-1160.66.1.el7.x86_64
+      Architecture: x86-64
+              Date: Sat May 21 16:41:14 EDT 2022
+
+CHECKING YOUR LAB 1 WORK:
+Checking Correct Linux Distribution: [0;32mOK[m
+Checking that root partition was created: [0;32mOK[m
+Checking that "/home" partition was created: [0;32mOK[m
+Checking that "/var/lib/libvirt/images" partition was created: [0;32mOK[m
+Checking that the root partition is at least 30GB: [0;32mOK[m
+Checking that the /home partition is at least 40GB: [0;32mOK[m
+Checking that the "/var/lib/libvirt/images" partition is at least 100GB: [0;32mOK[m
+Checking for network connectivity: [0;32mOK[m
+Checking that SELinux is disabled: [0;32mOK[m
+Checking that "/home/ochan10/bin" directory was created:[0;32mOK[m
+Checking that "/home/ochan10/bin/report.txt"  exists:[0;32mOK[m
+Checking that "/home/ochan10/bin/myreport.py" script exists:[0;32mOK[m
+Checking that "/home/ochan10/bin/myreport.py" script was run:[0;32mOK[m
+
+
+Congratulations!
+
+You have successfully completed Lab 1.
+1. Submit a screenshot of your entire desktop (including this window) to your course professor.
+2. A copy of this script output has been created at /home/ochan10/Desktop/lab1_output.txt. Submit this file along with your screenshot.
+3. Also submit a copy of your myreport.py script.

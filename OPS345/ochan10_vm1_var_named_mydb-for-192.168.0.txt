@@ -1,0 +1,18 @@
+$TTL 3D
+
+@ IN SOA @ oliverchan.ops.(
+        2022101204 ; Serial
+        8H ; Refresh
+        2H ; Retry
+        1W ; Expire
+        1D ; Negative Cache TTL
+);
+
+@ IN NS server.oliverchan.ops.
+10 IN PTR server.oliverchan.ops.
+20 IN PTR client.oliverchan.ops.
+33 IN PTR ops345.oliverchan.ops.
+123 IN PTR assign.oliverchan.ops.
+254 IN PTR oliver.oliverchan.ops.
+253 IN PTR new.oliverchan.ops.
+252 IN PTR test.oliverchan.ops.

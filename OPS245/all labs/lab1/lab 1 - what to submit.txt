@@ -1,0 +1,6 @@
+Congratulations!
+
+You have successfully completed Lab 1.
+1. Submit a screenshot of your entire desktop (including this window) to your course professor.
+2. A copy of this script output has been created at /home/ochan10/Desktop/lab1_output.txt. Submit this file along with your screenshot.
+3. Also submit a copy of your myreport.py script.

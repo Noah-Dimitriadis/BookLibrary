@@ -1,0 +1,79 @@
+
+
+
+options {
+	directory "/var/named/";
+	allow-query {127.0.0.1; 192.168.0.0/24;};
+	forwarders {10.0.1.1;};
+};
+
+zone "localhost" {
+	type master;
+	file "named.localhost";
+};
+
+zone "oliverchan.ops" {
+	type master;
+	file "mydb-for-oliverchan-ops";
+};
+
+zone "0.168.192.in-addr.arpa." {
+	type master;
+	file "mydb-for-192.168.0";
+};
+
+----------------------------------------------------
+
+
+//
+
+$TTL 3D
+@ IN SOA @ oliverchan.ops. (
+	2022101201 ; Serial
+	8H ; Refresh
+	2H ; Retry
+	1W ; Expire
+	1D ; Negative Cache TTL
+);
+
+@ IN NS server.oliverchan.ops.
+@ IN NS client.oliverchan.ops.
+@ IN A 192.168.0.10
+server IN A 192.168.0.10
+client IN A 192.168.0.20
+ops345 IN A 192.168.0.33
+assign IN A 192.168.0.123
+oliver IN A 192.168.0.254
+
+
+
+------------------------------------------
+
+$TTL 3D
+
+@ IN SOA @ oliverchan.ops.(
+	2022101202 ; Serial
+	8H ; Refresh
+	2H ; Retry
+	1W ; Expire
+	1D ; Negative Cache TTL
+);
+
+@ IN NS server.oliverchan.ops.
+10 IN PTR server.oliverchan.ops.
+20 IN PTR client.oliverchan.ops.
+33 IN PTR ops345.oliverchan.ops.
+123 IN PTR assign.oliverchan.ops.
+254 IN PTR oliver.oliverchan.ops.
+
+
+
+
+
+
+
+
+
+
+
+

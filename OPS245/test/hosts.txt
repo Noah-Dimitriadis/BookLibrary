@@ -1,0 +1,3 @@
+This is the content of host file
+
+192.168.2.1	ops245.org

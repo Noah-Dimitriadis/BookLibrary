@@ -1,0 +1,43 @@
+OPS245 Lab 7 Check Script
+
+SYSTEM INFORMATION:
+   Static hostname: ochan10
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: c196174a4a104f89be2982af6c123fbe
+           Boot ID: a07c340dca334331af77bc567261aa0c
+    Virtualization: vmware
+  Operating System: CentOS Linux 7 (Core)
+       CPE OS Name: cpe:/o:centos:centos:7
+            Kernel: Linux 3.10.0-1160.66.1.el7.x86_64
+      Architecture: x86-64
+              Date: Wed Jul 20 00:36:04 EDT 2022
+
+CHECKING YOUR LAB 7 WORK:
+
+Checking file "myfile.txt" copied to user's Matrix home directory: 
+[0;32mOK[m
+Checking that the user called "other" was created: 
+[0;32mOK[m
+Checking "PermitRootLogin" set to "no" (sshd_config backup): 
+[0;32mOK[m
+Checking user "other" added to "AllowUsers" option (sshd_config backup): 
+[0;32mOK[m
+Checking that public key created in "centos2" VM: 
+[0;32mOK[m
+Checking that public key copied to the "centos3" VM: 
+[0;32mOK[m
+[0;32mOK[m
+Checking for history of setting of default iptables policy: [0;32mOK[m
+Checking for history of setting web traffic exception: [0;32mOK[m
+Checking for history of setting ping exception: [0;32mOK[m
+Checking for history of setting SSH exception: [0;32mOK[m
+Checking for history of backing up iptables rules to a file: [0;32mOK[m
+Checking for history for making iptables rules persistent: [0;32mOK[m
+
+
+Congratulations!
+
+You have successfully completed Lab 7.
+1. Submit a screenshot of your entire desktop (including this window) to your course professor.
+2. A copy of this script output has been created at /home/ochan10/Desktop/lab7_output.txt. Submit this file along with your screenshot.

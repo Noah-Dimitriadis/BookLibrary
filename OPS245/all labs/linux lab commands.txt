@@ -1,0 +1,184 @@
+whoami
+sudo whoami
+
+sudo vim /etc/selinux/config
+set SELINUX to permissive
+restart VM
+run command: getenforce or sestatus
+
+uname -rv
+hostname
+ps -ef
+
+rpm -q -a | wc -l
+rpm -q -a -l | wc -l
+rpm -q -l gedit | wc -l
+
+ip address show
+ip route show
+nslookup
+
+mkdir ~/bin
+
+date +'%A %B %d, %Y (%I:%M %p)'
+hostname
+uname -rv
+ps aux
+ip address show
+
+
+sudo yum install python3
+
+sudo systemctl start libvirtd
+
+To disable and remove firewalld, issue the following commands:
+sudo systemctl disable firewalld
+sudo systemctl stop firewalld
+sudo yum remove firewalld
+
+
+To install and enable the IPTables services, issue the following commands:
+sudo yum install iptables-services
+sudo systemctl enable iptables
+sudo systemctl start iptables
+
+virt-manager
+
+edit /boot/efi/EFI/centos/grub.cfg
+
+cat /sys/module/kvm_intel/parameters/nested
+
+ poweroff
+
+ sudo -i
+
+gzip < centos1.qcow2 > ~YourRegularUsername/backups/centos1.qcow2.gz
+gzip < centos2.qcow2 > ~YourRegularUsername/backups/centos2.qcow2.gz
+gzip < centos3.qcow2 > ~YourRegularUsername/backups/centos3.qcow2.gz
+
+
+sudo rm -rf /* (ignore error messages)
+
+restore VM:
+gunzip < ~YourRegularUsername/backups/centos3.qcow2.gz > /var/lib/libvirt/images/centos3.qcow2
+
+ sudo virsh dumpxml centos3 > centos3.xml
+
+Enter these admin commands into your c7host machine and note the result:
+sudo virsh list
+sudo virsh list --all
+sudo virsh list --inactive
+
+
+ sudo virsh start centos1
+
+
+chroot /sysroot
+passwd root
+
+touch /.autorelabel
+
+tar cvf /tmp/archive1.tar .
+
+
+5. Unzip the first archive you created by issuing the command: 
+gunzip archive1.tar.gz
+
+6. Extract the files from the first archive by issuing the command: 
+tar xvf archive1.tar
+
+
+Extract the files from the second archive by issuing the following command: tar xvzf /tmp/extract2/archive2.tar.gz
+
+
+sudo yum install elinks
+yum info elinks
+sudo yum remove elinks
+sudo yum localinstall xchat-2.8.8-25.el7.x86_64.rpm
+
+ yum repolist
+
+sudo yum install epel-release
+: yum repolist
+
+which lbreakout2
+
+ Issue the following command:
+./configure && make
+
+sudo yum groupinstall "Development Tools"
+
+sudo yum install SDL-devel libpng-devel zlib-devel
+
+ sudo make install
+
+
+
+rpm -qi xchat
+
+rpm -qi
+ rpm -qia
+
+
+rpm -qia | sed -nre '/^Name[[:space:]]+:/ p' -e '/^Install
+Date[[:space:]]*:/ p'
+
+
+ useradd
+
+sudo useradd ops245_1
+
+ grep ops245_1 /etc/passwd
+sudo useradd -m ops245_2
+sudo userdel ops245_2
+
+sudo rm -rf /home/ops245_2
+
+sudo touch /etc/skel/foo
+
+Look in the man pages for the useradd command. Explain the purpose of using the -e option for the useradd command.
+22. Issue the following command: sudo chage -E 2021-12-31 ops245_1
+23. Issue the following command: sudo usermod -c "New Name" ops245_2.
+
+ sudo chage -l ops245_1. 
+
+sudo groupadd welcome
+
+grep welcome /etc/group
+
+
+Read the man page for the usermod and groupmod commands. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

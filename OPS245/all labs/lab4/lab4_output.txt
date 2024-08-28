@@ -1,0 +1,25 @@
+OPS245 Lab 4 Check Script
+
+CHECKING YOUR LAB 4 WORK:
+
+Checking that ops245_2 user created (centos1): 
+[0;32mOK[m
+Checking that "/etc/skel" directory contains the file called "foo" (centos1):
+[0;32mOK[m
+Checking that a group name "welcome" is contained in the file "/etc/group": 
+[0;32mOK[m
+Checking that "noobie" user was removed: 
+[0;32mOK[m
+Checking that iptables service started and enabled (centos1): 
+[0;32mOK[m
+Checking that that "centos1" VM is in run-level 5: 
+[0;32mOK[m
+Checking that the script "/home/ochan10/bin/tarchiver2.py" exists: 
+[0;32mOK[m
+
+
+Congratulations!
+
+You have successfully completed Lab 4.
+1. Submit a screenshot of your entire desktop (including this window) to your course professor.
+2. A copy of this script output has been created at /home/ochan10/Desktop/lab4_output.txt. Submit this file along with your screenshot.

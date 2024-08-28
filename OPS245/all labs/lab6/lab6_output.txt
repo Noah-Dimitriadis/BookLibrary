@@ -1,0 +1,40 @@
+OPS245 Lab 6 Check Script
+
+SYSTEM INFORMATION:
+   Static hostname: ochan10
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: c196174a4a104f89be2982af6c123fbe
+           Boot ID: 325f66e276484c95b18191fb6c380b8d
+    Virtualization: vmware
+  Operating System: CentOS Linux 7 (Core)
+       CPE OS Name: cpe:/o:centos:centos:7
+            Kernel: Linux 3.10.0-1160.66.1.el7.x86_64
+      Architecture: x86-64
+              Date: Tue Jul 12 22:36:13 EDT 2022
+
+CHECKING YOUR LAB 6 WORK:
+
+Checking pinging 192.168.245.1 (c7host): [0;32mOK[m
+Checking pinging 192.168.245.11 (centos1): [0;32mOK[m
+Check pinging 192.168.245.12 (centos2): [0;32mOK[m
+Check pinging 192.168.245.13 (centos3): [0;32mOK[m
+Check for persistent setting on centos1: 
+[0;32mOK[m
+Check for persistent setting on centos2: 
+[0;32mOK[m
+Check for persistent setting on centos3 (use password: "ops245"): 
+[0;32mOK[m
+Checking pinging c7host: [0;32mOK[m
+Checking pinging centos1: [0;32mOK[m
+Check pinging centos2: [0;32mOK[m
+Check pinging centos3: [0;32mOK[m
+Checking existence of "/home/ochan10/bin/netconfig.py" script: [0;32mOK[m
+
+
+Congratulations!
+
+You have successfully completed Lab 6.
+1. Submit a screenshot of your entire desktop (including this window) to your course professor.
+2. A copy of this script output has been created at /home/ochan10/Desktop/lab6_output.txt. Submit this file along with your screenshot.
+3. Also submit a copy of your netconfig.py script.
